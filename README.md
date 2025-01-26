@@ -6,7 +6,7 @@ Phishing is a significant cyber threat involving the creation of fake websites t
 Using datasets from trusted sources like PhishTank and the University of New Brunswick, we developed a system that achieved 94% accuracy in detecting phishing websites, using XGBoost algorithm.
 
 ## Features
-.**1. AI-Powered Detection**: Utilizes machine learning algorithms like XGBoost, Random Forest, Decision Tree, and SVM.
+ **1. AI-Powered Detection**: Utilizes machine learning algorithms like XGBoost, Random Forest, Decision Tree, and SVM.
 
  **2. Comprehensive Feature Extraction**: Extracts critical features from URLs, such as:
      Address bar, domain, and HTML/JavaScript-based characteristics.
@@ -17,6 +17,7 @@ Using datasets from trusted sources like PhishTank and the University of New Bru
 
 ## System Architecture
 The system follows these key steps:
+
 **1. Data Collection**: URLs sourced from PhishTank and UNB datase
 
 **2. Feature Extraction**: Features like URL length, IP presence, and redirection behaviors are analyzed.
@@ -26,6 +27,7 @@ The system follows these key steps:
 **4. Performance Evaluation**: Models evaluated using metrics like accuracy, precision, and recall.
 
 ## Methodology
+
 **1. Dataset Preparation**:
 Legitimate URLs: Sourced from UNB datasets.
 
